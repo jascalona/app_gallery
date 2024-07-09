@@ -16,12 +16,34 @@ body{
     flex-direction: column;
 }
 
+.container .text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
 .container .text h2{
-    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }
 
 .container .text p{
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     font-size: 20px;
+}
+
+@media (max-width: 420px){
+    .container .text h2{
+        font-size: 20px;
+    }
+
+    .container .text p{
+        font-size: 16px;
+    }
+
+    .container img {
+        width: 350px;
+    }
 }
