@@ -62,8 +62,15 @@ body{
     width: 90px;
 }
 
+.container-app .row .col img:hover{
+    transform: scale(1.1);
+}
 
+.container-app .row .p:hover{
+    transform: scale(1.1);
+}
 
+/*RESPONSIVE*/
 @media (max-width: 400px) {
 
     .container-app{
