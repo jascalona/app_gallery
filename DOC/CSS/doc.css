@@ -28,7 +28,6 @@ header{
     align-items: center;
 }
 
-
 header .header-links{
     display: flex;
     justify-content: center;
@@ -39,13 +38,13 @@ header .header-links{
 header .header-links a{
     color: #bcbcbc;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 header .header-links i{
     color: #bcbcbc;
     padding-left:  10px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 /*NAV*/
@@ -54,7 +53,7 @@ nav{
     margin-left: 6%;
     margin-top: ;
     background: rgb(70, 70, 73);
-    width: 12%;
+    width: 13%;
     height: 100%;
 }
 
@@ -67,8 +66,7 @@ nav .title h4{
 
 nav .nav-links{
     display: flex;
-    justify-content: initial;
-    align-items: center;
+    padding: 8px;
     list-style: none;
 }
 
@@ -78,9 +76,24 @@ nav .nav-links {
 
 nav .nav-links {
     margin-top: 60%;
+    line-height: 2;
 }
 
 nav .nav-links a{
     text-decoration: none;
-    color: #fff;
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+nav .nav-links i{
+    color: #bcbcbc;
+    font-size: 18px;
+    padding-right: 8px;
+    
+}
+
+nav .nav-links li:hover{
+    background: #262525;
+    border-radius: 3px;
+    padding-left: 2px;
 }
