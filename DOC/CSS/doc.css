@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: relative;
     background: rgb(50, 50, 50);
     border: solid 1px #474444;
     width: 100%;
@@ -36,7 +36,7 @@ header .header-links{
 }
 
 header .header-links a{
-    color: #bcbcbc;
+    color: #000;
     padding-left: 15px;
     font-size: 18px;
     text-decoration: none;
@@ -51,7 +51,6 @@ header .header-links i{
 nav{
     position: fixed;
     margin-left: 6%;
-    margin-top: ;
     background: rgb(70, 70, 73);
     width: 13%;
     height: 100%;
@@ -61,6 +60,7 @@ nav .title h4{
     display: flex;
     justify-content: initial;
     padding: 30px;
+    color: #f3f3f3ce;
 }
 
 
