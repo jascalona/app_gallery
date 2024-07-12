@@ -65,7 +65,7 @@
                                 <div class="modal-body">
                                     
                                     <div class="mb-3">
-                                        <input type="text" class="form-control" id="folder" placeholder="Nombre del Directorio">
+                                        <input type="text" name="name_directory" class="form-control" id="folder" placeholder="Nombre del Directorio">
                                     </div>
                                     
                                 </div>
