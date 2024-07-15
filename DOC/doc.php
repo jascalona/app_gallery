@@ -7,7 +7,7 @@
     <title>DOC</title>
 
     <!-- CSS // FRAMEWORK-->
-     <link rel="stylesheet" href="./CSS/doc.css">
+     <link rel="stylesheet" href="http://localhost/app_gallery/DOC//CSS/doc.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
      <!-- CSS // FRAMEWORK-->
@@ -50,10 +50,10 @@
 
 
                         <!-- method POST -->
-                        <form action="./Controller/create_directory.php" method="POST">
+                        <form action="./Directory/create_directory.php" method="POST">
 
                         <?php
-                         include "./Controller/create_directory.php";    
+                         include "./Directory/create_directory.php";    
                         ?>
 
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -67,6 +67,7 @@
                                     
                                     <div class="mb-3">
                                         <input type="text" name="name_folder" class="form-control" id="name_folder" placeholder="Nombre del Directorio">
+                                        <input type="hidden" name="id_folder" class="form-control" id="name_folder" placeholder="Nombre del Directorio">
                                     </div>
                                     
                                 </div>
@@ -99,6 +100,20 @@
             </ul>
         </nav>
         
+
+        <div class="container_directory">
+            <?php
+                include "./Directory/list_directory.php";
+            ?>
+
+            <!-- list Directory -->            
+            <div class="list_directory">
+                <ul>
+                    <p><i>Directorios...</i></p>
+                    <?php echo $listar; ?>
+                </ul>
+            </div>
+        </div>
 
 </body>
 </html>
