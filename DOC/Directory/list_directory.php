@@ -7,7 +7,7 @@ while ($elemento = readdir($directorio)) {
 
     $listar .= "<li><i class='bx bxs-folder-open' style='color:#eac11a'></i><a href='./Directory/$elemento' target='_blank'>$elemento</a></li>";
 
-    }   
+    }   echo
 
 }
 
