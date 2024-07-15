@@ -7,9 +7,10 @@ if (!empty($_POST['btn-c'])) {
 
     
     if(!mkdir($directory, 0777, true)) {
-        die('Ha Ocurrido un Error');
+        die('<script>alert("Ha Ocurrido un Error!")</script>');
 
     } else {
+        echo ('<script>alert("Directorio creado con Exito!")</script>');
         header('location: http://localhost/app_gallery/DOC/doc.php');
     }
     
