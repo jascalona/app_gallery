@@ -48,12 +48,13 @@
                         Crear Directorio
                     </button>
 
-                        <?php
-                            include "./Controller/create_directory.php";    
-                        ?>
 
-                            <!-- method POST -->
+                        <!-- method POST -->
                         <form action="" method="POST">
+
+                        <?php
+                         include "./Controller/create_directory.php";    
+                        ?>
 
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -65,13 +66,13 @@
                                 <div class="modal-body">
                                     
                                     <div class="mb-3">
-                                        <input type="text" name="name_directory" class="form-control" id="folder" placeholder="Nombre del Directorio">
+                                        <input type="text" name="name_folder" class="form-control" id="name_folder" placeholder="Nombre del Directorio">
                                     </div>
                                     
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="submit" name="create_directory" value="submit" class="btn btn-primary">Crear</button>
+                                    <button type="submit" name="btn-c" value="submit" class="btn btn-primary">Crear</button>
                                 </div>
                                 </div>
                             </div>
