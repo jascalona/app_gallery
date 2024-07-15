@@ -50,7 +50,7 @@
 
 
                         <!-- method POST -->
-                        <form action="" method="POST">
+                        <form action="./Controller/create_directory.php" method="POST">
 
                         <?php
                          include "./Controller/create_directory.php";    

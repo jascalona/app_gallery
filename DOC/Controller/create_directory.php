@@ -1,15 +1,16 @@
 <?php
 
-if (!isset($_POST['btn-c'])) {
+if (!empty($_POST['btn-c'])) {
 
-    // Estructura de la carpeta deseada
-    $estructura = './JJJ/DOS/';
+    // Variable Name_directory
+    $directory = $_POST['name_folder'];
+
     
-    // Para crear una estructura anidada se debe especificar
-    // el parámetro $recursive en mkdir().
-    
-    if(!mkdir($estructura, 0777, true)) {
-       // die('Fallo al crear las carpetas...');
+    if(!mkdir($directory, 0777, true)) {
+        die('Ha Ocurrido un Error');
+
+    } else {
+        header('location: http://localhost/app_gallery/DOC/doc.php');
     }
     
     // ...
