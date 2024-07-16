@@ -14,7 +14,6 @@ if (!empty($_POST['btn-c'])) {
         header('location: http://localhost/app_gallery/DOC/doc.php');
     }
     
-    // ...
 
 
 
