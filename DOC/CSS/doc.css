@@ -6,7 +6,6 @@
 }
 
 body{
-    background: rgb(50, 50, 50);
 }
 
 header{
@@ -51,7 +50,7 @@ header .header-links i{
 nav{
     position: fixed;
     margin-left: 4%;
-    background: rgb(70, 70, 73);
+    background: rgb(115, 115, 118);    
     width: 13%;
     height: 100%;
 }
@@ -126,7 +125,7 @@ header .header  .home{
 }
 
 .list_directory ul li {
-    border-top: solid #4744444b 1px;
+    border-top: solid #928d8d4b 1px;
     padding: 7px;
     width: auto;
 }
@@ -139,13 +138,13 @@ header .header  .home{
 .list_directory ul a {
     text-decoration: none;
     font-size: 14px;
+    color: #dad6d6;
 }
 
 /*responsive List Directory -- NAV */
 @media (max-width: 1940px) {
     .list_directory ul{
         margin-left: 7%;
-        background: rgba(198, 193, 193, 0.535);
     }
 }
 
@@ -196,20 +195,94 @@ header .header  .home{
     }
 }
 
+/*3000*/
+/*RESPNSIVE NAV*/
+@media (max-width: 5000px) {
+    header .header .home{
+        visibility: hidden;
+    } 
+    
+    header .header .home{
+        visibility: visible;
+    } 
+    
+    header .header .offcanvas-header{
+        background: rgb(50, 50, 50);
+        color: #fff;
+    }
+    
+    header .header .offcanvas-body{
+        background: rgb(70, 70, 73);
+    } 
+
+    header .header .home-nav{
+        margin-top: 100px;
+        line-height: 2;
+    } 
+
+    header .header .home-nav li:hover{
+        background: #262525;
+    }
+
+    header .header .home-nav li a{
+        color: #bcbcbc;
+    }
+
+    header .header .home a {
+        background: none;
+        border: none;
+    } 
+    header .header .home .home-nav ul {
+        list-style: none;
+    } 
+    header .home .offcanvas-body .nav-links li:hover{
+        background: #262525;
+
+    }
+}
+
 /*RESPNSIVE NAV*/
 @media (max-width: 1250px) {
     nav{
         visibility: hidden;
-    } header .header .home{
+    } 
+    
+    header .header .home{
         visibility: visible;
-    } header .header .offcanvas-body{
+    } 
+    
+    header .header .offcanvas-header{
+        background: rgb(50, 50, 50);
+        color: #fff;
+    }
+    
+    header .header .offcanvas-body{
         background: rgb(70, 70, 73);
     } 
+
+    header .header .home-nav{
+        margin-top: 100px;
+        line-height: 2;
+    } 
+
+    header .header .home-nav li:hover{
+        background: #262525;
+    }
+
+    header .header .home-nav li a{
+        color: #bcbcbc;
+    }
+
     header .header .home a {
         background: none;
         border: none;
-    } header .header .home .home-nav ul {
+    } 
+    header .header .home .home-nav ul {
         list-style: none;
+    } 
+    header .home .offcanvas-body .nav-links li:hover{
+        background: #262525;
+
     }
 }
 

@@ -23,7 +23,7 @@
 
 
 </head>
-<body>
+<body style="background: rgb(61,61,62);" >
     
     
         <header>
@@ -89,13 +89,10 @@
                     </a>
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Unidad</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            <div>
-                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                            </div>
                             <div class="home-nav">
                             
                                 <ul class="nav-links">
@@ -135,7 +132,7 @@
             <!-- list Directory -->            
             <div class="list_directory">
                 <ul>
-                    <p><i>Directorios...</i></p>
+                    <p style="color: #fff;" ><i>Directorios...</i></p>
                     <?php echo $listar; ?>
                 </ul>
             </div>
