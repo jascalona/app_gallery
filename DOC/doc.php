@@ -82,6 +82,32 @@
 
                     <li><a href=""><i class='bx bx-list-ul'></i></a></li>
                     <li><a href=""><i class='bx bxs-grid'></i></a></li>
+                    
+                    <div class="home">
+                    <a class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <i class='bx bx-home-smile'></i>
+                    </a>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                            </div>
+                            <div class="home-nav">
+                            
+                                <ul class="nav-links">
+                                    <li><i class='bx bx-cloud-light-rain' ></i><a href="">Nube</a></li>
+                                    <li><i class='bx bxs-bookmark-star' ></i><a href="">Favoritos</a></li>
+                                    <li><i class='bx bx-file' ></i><a href="">Formatos de Instalacion</a></li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                        </div>
+                    </div>
 
                 </ul>
             </div>

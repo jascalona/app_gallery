@@ -98,6 +98,11 @@ nav .nav-links li:hover{
     padding-left: 2px;
 }
 
+/*NAV-HEADER*/
+header .header  .home{
+    visibility: hidden;
+}
+
 /*List Directory*/
 .container_directory{
     display: flex;
@@ -188,8 +193,23 @@ nav .nav-links li:hover{
 @media (max-width: 1300px) {
     .list_directory ul {
         width: 1000px;
-    } nav {
-        scrollbar-width:auto;
+    }
+}
+
+/*RESPNSIVE NAV*/
+@media (max-width: 1250px) {
+    nav{
+        visibility: hidden;
+    } header .header .home{
+        visibility: visible;
+    } header .header .offcanvas-body{
+        background: rgb(70, 70, 73);
+    } 
+    header .header .home a {
+        background: none;
+        border: none;
+    } header .header .home .home-nav ul {
+        list-style: none;
     }
 }
 
