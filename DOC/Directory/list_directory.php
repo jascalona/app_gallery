@@ -12,4 +12,3 @@ while ($elemento = readdir($directorio)) {
     }
 
 }
-

@@ -40,7 +40,6 @@
                         </button>
                         <ul class="dropdown-menu">
                           <li><input type="file"></li>
-                          <li><a class="dropdown-item" href="#">Directorio</a></li>
                         </ul>
                       </div>
 
