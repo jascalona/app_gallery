@@ -1,12 +1,12 @@
 <?php
 
-if (!empty($_POST['btn-c'])) {
+if (!empty($_POST['btn-d'])) {
 
     // Variable Name_directory
-    $directory = $_POST['name_folder'];
+    $directory_form = $_POST['name_form'];
 
     
-    if(!mkdir($directory, 0777, true)) {
+    if(!mkdir($directory_form, 0777, true)) {
         die('<script>alert("Ha Ocurrido un Error!")</script>');
 
     } else {
