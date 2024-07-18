@@ -55,7 +55,7 @@ nav{
 nav .title h4{
     display: flex;
     justify-content: initial;
-    padding: 30px;
+    padding: 25px;
     color: #f3f3f3ce;
 }
 
@@ -71,7 +71,7 @@ nav .nav-links {
 }
 
 nav .nav-links {
-    margin-top: 60%;
+    margin-top: 20%;
     line-height: 2;
 }
 

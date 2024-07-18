@@ -11,7 +11,7 @@ if (!empty($_POST['btn-d'])) {
 
     } else {
         echo ('<script>alert("Directorio creado con Exito!")</script>');
-        header('location: http://localhost/app_gallery/DOC/doc.php');
+        header('location: http://localhost/app_gallery/DOC/form_install.php');
     }
     
 
