@@ -7,7 +7,7 @@
     <title>ind</title>
 
     <!-- CSS // FRAMEWORK-->
-     <link rel="stylesheet" href="../CSS/doc.css">
+     <link rel="stylesheet" href="./CSS/doc.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
      <!-- CSS // FRAMEWORK-->
@@ -125,8 +125,7 @@
 
         <div class="container_directory">
             <?php
-                include './Directory/list_directory.php';
-
+                include "./Directory/list_directory.php";
             ?>
 
             <!-- list Directory -->            
@@ -138,5 +137,6 @@
             </div>
         </div>
 
+        
 </body>
 </html>
