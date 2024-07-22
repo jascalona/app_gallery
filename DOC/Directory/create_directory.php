@@ -9,19 +9,18 @@ if (!empty($_POST['btn-c'])) {
     
     if (!file_exists($directory)) {
 
+        if(!mkdir($directory, 0777, true)) {
+            die('<script>alert("Ha Ocurrido un Error!")</script>');
 
-    if(!mkdir($directory, 0777, true)) {
-        die('<script>alert("Ha Ocurrido un Error!")</script>');
-
+        } else {
+        //   echo ('<script>alert("Directorio creado con Exito!")</script>');
+            header('location: http://localhost/app_gallery/DOC/doc.php');
+        }
+        
     } else {
-     //   echo ('<script>alert("Directorio creado con Exito!")</script>');
-        header('location: http://localhost/app_gallery/DOC/doc.php');
-    }
-    
-} else {
-        die ('<script>alert("Ya hay un elemento con el mismo nombre!")</script>');
-       
-    }
+            die ('<script>alert("Ya hay un elemento con el mismo nombre!")</script>');
+        
+        }
 
 
 }
