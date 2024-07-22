@@ -7,7 +7,7 @@
     <title>ind</title>
 
     <!-- CSS // FRAMEWORK-->
-     <link rel="stylesheet" href="./CSS/doc.css">
+     <link rel="stylesheet" href="../CSS/doc.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
      <!-- CSS // FRAMEWORK-->
@@ -132,7 +132,7 @@
             <div class="list_directory">
                 <ul>
                     <p style="color: #fff;" ><i>Directorios...</i></p>
-                    <?php echo $directorio; ?>
+                    <?php echo $elemento; ?>
                 </ul>
             </div>
         </div>
