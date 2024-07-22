@@ -4,10 +4,13 @@ $list = null;
 $directorio = opendir("Directory");
 while ($elemento = readdir($directorio)) {
     
+
     if($elemento != '.' && $elemento != '..')
     if (is_dir("./Directory/" . $elemento)) {
 
-    $listar .= "<li><i class='bx bxs-folder-open' style='color:#DDCE78'></i><a href='./Directory/$elemento' target='_blank'>$elemento</a>
+        
+        //validar imprimir la lista de los archivos en el ind.php
+    $listar .= "<li><i class='bx bxs-folder-open' style='color:#DDCE78'></i><a href='./Directory/ind.php' target='_blank'>$elemento</a>
           
                     <button  style='border: none; position: absolute; margin-left: 60%;' type='button' class='btn' data-bs-toggle='dropdown'>
                         <i class='bx bx-dots-horizontal-rounded'></i>
@@ -22,5 +25,7 @@ while ($elemento = readdir($directorio)) {
                 </li>";
 
     }
+
+    
 
 }
